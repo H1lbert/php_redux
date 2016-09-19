@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	border: solid 5px #c9c9c9;
+	transition: border 0.3s;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif, Helvetica, Arial, sans-serif;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: white;
+}
+.hint {
+	font-family: 'Maven Pro', sans-serif, Helvetica, Arial, sans-serif;
+	font-size: x-small;
+}
+.joke {
+	border: solid 5px #c9c9c9;
+	transition: border 0.3s;
+	margin-top: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(235,228,235,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(235,228,235,1);
+	box-shadow: 10px 10px 5px 0px rgba(235,228,235,1);
+	background-color: white;
+	overflow: hidden;
+	font-family: 'Oxygen';
+}
+.joke img {
+	float: left;
+    padding: 20px;
+	margin-right: 20px;
+	max-height: 250px;
+}
