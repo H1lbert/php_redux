@@ -10,7 +10,7 @@ if (ini_get("session.use_cookies")){
 }
 session_destroy();
 ?>
-
+<!--Her linkes der tilbage til login siden, samt sessionen bliver ødelagt-->
 <meta http-equiv="refresh" content="0; url= http://localhost:8888/login/index.php" />
 
 

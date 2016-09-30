@@ -13,6 +13,7 @@
 </div>
 
 <?php
+//Nedenfor ses den PHP kode der henviser til logout filen, som også redirecter til login siden, samt destroyer sessionen. Derudover er den blevet linket til submit knappen som ses ovenfor.
 session_start();
 if(isset($_POST['logout'])) {
 	include("logout.php");
